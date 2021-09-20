@@ -1,12 +1,16 @@
 {
   "name": "fetch-lifecycle",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "Wrap fetch with lifecycle hooks, before, success, error, after.",
   "main": "index.js",
   "scripts": {
     "test": "node --experimental-vm-modules \"node_modules/jest/bin/jest.js\""
   },
-  "keywords": [],
+  "keywords": [
+    "fetch",
+    "lifecycle",
+    "hooks"
+  ],
   "author": "Nir Adler",
   "license": "MIT",
   "dependencies": {
@@ -14,5 +18,16 @@
   },
   "devDependencies": {
     "jest": "^27.2.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niradler/fetch-lifecycle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niradler/fetch-lifecycle/issues"
+  },
+  "homepage": "https://github.com/niradler/fetch-lifecycle#readme"
 }
