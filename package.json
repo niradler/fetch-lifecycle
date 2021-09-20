@@ -1,6 +1,6 @@
 {
   "name": "fetch-lifecycle",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wrap fetch with lifecycle hooks, before, success, error, after.",
   "main": "index.js",
   "scripts": {
